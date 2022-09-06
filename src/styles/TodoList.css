@@ -1,0 +1,16 @@
+html
+{
+    font-size: 62.5%;
+    font-family: Helvetica
+}
+
+.parentContainer
+{
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 1rem 0 5rem 1rem;
+    list-style: none;
+}

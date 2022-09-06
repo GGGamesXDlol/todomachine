@@ -1,0 +1,36 @@
+html
+{
+    font-size: 62.5%;
+    font-family: Helvetica;
+	background-color: #5885f8
+}
+
+.parentContainer, .divParent, .sectionParent
+{
+    text-align: center;
+}
+
+.todoButton {
+	background-color:#31F570;
+	border-radius:5rem;
+	border:0.3rem solid #0fe653;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:5rem;
+	font-weight:bold;
+	padding:0.3rem 1.7rem;
+	text-decoration:none;
+    text-align: center;
+	text-shadow:0rem 0rem 0.3rem #000000;
+}
+.todoButton:hover {
+	background-color:#00c53e;
+}
+.todoButton:active {
+	color:#cecece;
+	position:relative;
+	top:0.2rem;
+	background-color:#50a725;
+}

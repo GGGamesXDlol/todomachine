@@ -1,0 +1,135 @@
+html
+{
+    font-size: 62.5%;
+    font-family: Helvetica;
+	background-color: #5885f8
+}
+
+.divParent, .sectionParent
+{
+    text-align: center;
+}
+
+.create {
+	background-color:#31F570;
+	border-radius:2rem;
+	border:0.3rem solid #0fe653;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:2rem;
+	font-weight:bold;
+	padding:0.3rem 1.7rem;
+	text-decoration:none;
+    text-align: center;
+	text-shadow:0rem 0rem 0.3rem #000000;
+}
+.create:hover {
+	background-color:#00c53e;
+}
+.create:active {
+	color:#cecece;
+	position:relative;
+	top:0.2rem;
+	background-color:#50a725;
+}
+
+.cancel {
+	background-color:#F54C49;
+	border-radius:2rem;
+	border:0.3rem solid #f23835;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:2rem;
+	font-weight:bold;
+	padding:0.3rem 1.7rem;
+	text-decoration:none;
+    text-align: center;
+	text-shadow:0rem 0rem 0.3rem #000000;
+}
+.cancel:hover {
+	background-color:#f32c29;
+}
+.cancel:active {
+	color:#cecece;
+	position:relative;
+	top:0.2rem;
+	background-color:#cb2421;
+}
+
+.divParent
+{
+	background: rgba(32,35,41,.8);
+	position: fixed;
+	top: -1rem;
+	left: -1rem;
+	right: -1rem;
+	bottom: -1rem;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	color: white;
+    padding-bottom: 5rem;
+}
+
+
+.textarea{ 
+    border-style:solid;
+    padding:0.7rem; 
+    text-align:center; 
+    font-size:1.8rem; 
+    border-width:0.2rem; 
+    border-radius:7px; 
+    border-color:#000000; 
+    background-color:#f5c60c; 
+    color:#000000; 
+    font-weight:bold; 
+    font-style:none;
+    resize: none;
+    height: 5rem;
+    width: 35rem;
+}
+
+.textarea:focus { 
+    outline:none; 
+} 
+
+.textarea::placeholder {
+    color: #00000063;
+    font-size: 1.8rem;
+    font-style: italic;
+}
+
+.sectionParent
+{
+    position: absolute;
+    top: 40rem;
+}
+
+.todoAdvice
+{
+    font-size: 5rem;
+    position: absolute;
+    top: 40rem;
+}
+
+.repeated
+{
+	color: #f32c29;
+	text-shadow: -0.05rem -0.05rem 0 #ff8f8f, 0.05rem -0.05rem 0 #ff8f8f, -0.05rem 0.05rem 0 #ff8f8f, 0.05rem 0.05rem 0 #ff8f8f;
+}
+
+.popanim
+{
+	color: #f32c29;
+	text-shadow: -0.1rem -0.1rem 0 #ff8f8f, 0.1rem -0.1rem 0 #ff8f8f, -0.1rem 0.1rem 0 #ff8f8f, 0.1rem 0.1rem 0 #ff8f8f;
+	animation: pop 0.2s ease-in 1;
+}
+
+@keyframes pop{
+	50%  {transform: scale(1.2);}
+}

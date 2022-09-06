@@ -1,0 +1,16 @@
+html
+{
+    font-size: 62.5%;
+    font-family: Helvetica
+}
+
+.TodoCounter
+{
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.Bold
+{
+    font-size: 2.7rem;
+}
